@@ -1,0 +1,274 @@
+.devices table th {
+    white-space: nowrap !important;
+}
+
+.devices table td {
+    white-space: nowrap !important;
+}
+
+.devices th {
+    padding: 8px 8px !important;
+}
+
+.ant-btn-sm {
+    line-height: 20px !important;
+    font-size  : 10px;
+}
+
+/* .ant-dropdown.ant-dropdown-placement-bottomRight {
+    left: 169px !important;
+    top : 12px !important;
+} */
+
+.edit_ftr_btn11 {
+    text-align   : right;
+    border-top   : 1px solid #e8e8e8;
+    padding-top  : 13px;
+    margin-bottom: 0px !important;
+    margin-top   : 16px;
+}
+
+.edit_ftr_btn {
+    text-align   : right;
+    padding-top  : 13px;
+    margin-bottom: 0px !important;
+    margin-top   : 24px;
+}
+
+.edit_ftr_btn button {
+    margin-bottom: 0;
+    margin-left  : 1px;
+}
+
+.edit_form .ant-modal-body {
+    padding: 16px 16px 16px;
+}
+
+.wipe_device .ant-modal-content {
+    height         : 300px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.wipe_device .ant-modal-body {
+    padding: 0 45px 0;
+}
+
+.password_field {
+    margin: 16px 0;
+}
+
+.prof_f_b .ant-modal-body {
+    padding: 16px 16px;
+}
+
+.wipe_content {
+    border       : 2px solid #03A9F4;
+    padding      : 18px 30px;
+    border-radius: 10px;
+}
+
+.push_app .ant-modal-body {
+    padding: 40px 45px 40px;
+}
+
+.search_heading input {
+    height       : 26px;
+    font-size    : 12px;
+    font-weight  : 300;
+    padding      : 5px;
+    padding-right: 18px !important;
+}
+
+.search_heading i {
+    font-size: 11px;
+    color    : #b2b2b2;
+}
+
+.search_heading {
+    margin-bottom: 0;
+}
+
+.search_heading .ant-input-suffix {
+    right: 6px;
+}
+
+.ant-table-row-expand-icon {
+    width      : 20px;
+    height     : 20px;
+    line-height: 16px;
+    font-size  : 20px;
+}
+
+.dev_table th {
+    padding: 8px 8px !important;
+}
+
+.dev_table .ant-card-bordered {
+    border-top: none;
+}
+
+
+
+.expand_table .bold {
+    font-weight: 500 !important
+}
+
+.ant-modal {
+    top: 24px;
+}
+
+.gx-sidebar-content .fa-mobile {
+    font-size     : 30px;
+    vertical-align: text-bottom;
+    margin-left   : 4px;
+    margin-right  : 8px;
+    line-height   : 25px;
+}
+
+.dev_tabs .ant-tabs-tab {
+    text-align: center;
+}
+
+.dev_tabs .ant-tabs-bar {
+    margin-bottom: 0px;
+}
+
+.dev_tabs .ant-card-bordered {
+    border-top: #fff;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+
+
+.ant-tabs-tab-active .green {
+    color: #008000
+}
+
+.ant-tabs-tab-active .orange {
+    color: #FFA500
+}
+
+.ant-tabs-tab-active .purple {
+    color: #7a05b9
+}
+
+.ant-tabs-tab-active .yellow {
+    color: #cccc0e
+}
+
+.ant-tabs-tab-active .blue {
+    color: #0000FF
+}
+
+.ant-tabs-tab-active .red {
+    color: #FF0000
+}
+
+.ant-tabs-tab-active .gray {
+    color: #808080
+}
+
+.green:hover {
+    color: #37a037
+}
+
+.orange:hover {
+    color: rgb(243, 183, 72)
+}
+
+.yellow:hover {
+    color: #dada6a
+}
+
+.blue:hover {
+    color: rgb(38, 38, 255)
+}
+
+.purple:hover {
+    color: #7a05b9;
+}
+
+.red:hover {
+    color: rgb(252, 40, 40)
+}
+
+.gray:hover {
+    color: #999999
+}
+
+.ant-tabs-tab-active {
+    font-weight: 400 !important;
+}
+
+.dev_tabs .ant-tabs-tab:hover {
+    color: #545454 !important;
+}
+
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor : pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    border       : 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding      : 4px 11px;
+}
+
+#order::parent {
+    display: none;
+}
+
+#order {
+    display: none;
+}
+
+.addUserSpin {
+    text-align   : center;
+    background   : rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding-top  : 10px;
+    margin       : 10px 0;
+}
+
+.pos_rel {
+    position: relative;
+}
+
+.add_user_btn {
+    position: absolute;
+    left    : 230px;
+    top     : -9px;
+    width   : 40%;
+    padding : 0;
+}
+
+.dev_radio_btn {
+    width        : 35%;
+    text-align   : center;
+    margin-bottom: 16px !important;
+}
+
+.ant-radio-button-wrapper-checked a {
+    color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+    .add_user_btn {
+        left : 230px;
+        width: 50%;
+    }
+
+    .edit_form .ant-form-item-label {
+        text-align: left;
+    }
+}

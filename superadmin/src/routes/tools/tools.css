@@ -1,0 +1,7 @@
+.d_t_m {
+    height: 100%;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,82 @@
+.devices table th {
+  white-space: nowrap !important;
+  font-size: 13px;
+  text-align: center;
+}
+
+.devices table td {
+  white-space: nowrap !important;
+}
+
+.devices .ant-table-tbody>tr>.devices1 {
+  text-align: left;
+  padding-left: 48px !important;
+  width: 130px;
+}
+
+.manage_data {
+  float: left;
+  width: 6.2%;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+}
+
+.manage_data .ant-tabs-bar {
+  margin: 0;
+}
+
+.m_d_table {
+  height: 458px;
+  overflow: overlay;
+  float: right;
+  width: 93.8%;
+}
+
+.m_d_table1 {
+  height: auto;
+  overflow: overlay;
+  float: left;
+  right: 16px;
+  left: 82px;
+  position: absolute;
+  width: auto;
+}
+
+.p_i_report {
+  float: left;
+  width: 67px;
+}
+
+.manage_data .ant-tabs-tab {
+  margin-right: 0 !important;
+}
+.sale_info_table .ant-table-title {
+  padding: 0 !important;
+}
+.sale_info_table .ant-table-tbody>tr>td,
+.sale_info_table .ant-table-thead>tr>th {
+  padding: 0 !important;
+  text-align: center;
+}
+
+.saleTable {
+  background: #ddebf7;
+  padding: 2px 2px;
+  margin-bottom: 0;
+}
+.p-5{
+  padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  .devices .ant-table-tbody>tr>.devices1 {
+    padding-left: 5.5% !important;
+  }
+  .manage_data {
+    float: left;
+    width: 9.2%;
+  }
+  .m_d_table {
+    width: 90.8%;
+  }
+}

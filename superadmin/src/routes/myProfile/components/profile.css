@@ -1,0 +1,56 @@
+/*---- Apk List Css----*/
+.ant-table-filter-dropdown .ant-btn {
+    margin-bottom: 0;
+}
+
+.change_pass .ant-btn,
+.change_email .ant-btn {
+    padding: 0;
+}
+
+.profile_table .ant-table-tbody>tr>td {
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 6px !important;
+    font-weight: 400;
+}
+
+.manage_sec_pro .ant-card-body {
+    height: 253px;
+    position: relative;
+}
+
+.manage_sec_pro img {
+    width: 100px;
+}
+
+.open_btn {
+    width: 40%;
+    position: absolute;
+    bottom: 33px;
+    left: 33%;
+}
+
+.ant-btn>.anticon+span {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.ant-btn>span+.anticon {
+    margin-left: 0;
+    font-size: 14px;
+}
+
+.edit_a_tag {
+    float: right;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+@media (max-width: 992px) {
+    /* .manage_sec_pro .ant-card-body {
+        height: auto;
+    } */
+}

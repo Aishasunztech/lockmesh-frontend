@@ -1,0 +1,17 @@
+.session_exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 15% 3% 0;
+    color: #fff;
+    background-color: #111;
+}
+
+.session_exp h1 {
+    color: #e8e8e8
+}
+
+.session_exp p {
+    font-size: 16px;
+}

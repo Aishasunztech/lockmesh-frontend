@@ -1,0 +1,6 @@
+export const POLICY_NAME = "POLICY NAME";
+export const POLICY_STATUS = "STATUS";
+export const POLICY_PERMISSIONS = "PERMISSIONS";
+export const POLICY_COMMAND = "POLICY COMMAND";
+export const POLICY_INFO = 'POLICY INFO';
+export const POLICY_NOTE = 'POLICY NOTE';

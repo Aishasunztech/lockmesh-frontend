@@ -142,6 +142,24 @@ switch (hostName) {
         TIMEZONE = "Europe/London"
         break;
 
+    // sunztech server
+    case "mdm-lm.sunztech.com":
+    case "http://mdm-lm.sunztech.com":
+    case "https://mdm-lm.sunztech.com":
+        URL = "https://mdm-lm.sunztech.com/api/";
+        SOCKET_URL = 'wss://mdm-lm.sunztech.com';
+        SOCKET_PATH = '/api/web/socket'
+
+        SUPPORT = "https://mdm-lm.sunztech.com/supports/v1/"
+        SUPPORT_SOCKET = "https://mdm-lm.sunztech.com";
+        SUPERADMIN = 'https://mdm-sa.sunztech.com/';
+        LOG_SERVER_BASE_URL = 'https://mdm-logs.sunztech.com';
+        SysId = 2;
+
+        TITLE = "LM SunzTech"
+        TIMEZONE = "Europe/London"
+        break;
+
     default:
         break;
 }

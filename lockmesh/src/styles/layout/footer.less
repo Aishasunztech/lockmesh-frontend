@@ -1,0 +1,769 @@
+/* Footer Style */
+.ant-layout-footer {
+    border-top: @border-style-base @border-width-base @border-color;
+
+    @media screen and (max-width: @screen-xs-max) {
+        padding: @layout-footer-padding-res;
+    }
+
+    .@{class-prefix}-container-wrap & {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.@{class-prefix}-layout-footer-content {
+    .@{class-prefix}-container-wrap & {
+        width: 94vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+        @media screen and (min-width: @screen-md-min) {
+            width: (@screen-md-min - 48); //720
+        }
+
+        @media screen and (min-width: @screen-lg-min) {
+            width: (@screen-lg-min - 72); //920
+        }
+
+        @media screen and (min-width: @screen-xl-min) {
+            width: (@screen-xl-min - 100); //1100
+        }
+
+        @media screen and (min-width: (@screen-xl-min + 167px)) {
+            width: @screen-xl-min; //1200
+        }
+
+        @media screen and (min-width: @screen-xxl-min) {
+            width: (@screen-xxl-min - 200); //1400
+        }
+    }
+}
+
+.ant-layout-footer {
+    padding: 3px 0;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    padding: 4px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.fix_card .ant-table-bordered .ant-table-thead>tr>th {
+    background-color: #fafafa !important;
+    border: 1px solid #e8e8e8;
+    border-top: 0 !important;
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
+
+.fix_card_sm .ant-table-bordered .ant-table-thead>tr>th {
+    white-space: nowrap;
+}
+
+.fix_card .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters {
+    position: sticky !important;
+    top: 40px;
+    z-index: 1;
+}
+
+.feat_apk_fix_card_admin .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters,
+.feat_apk_fix_card_dealer .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters {
+    top: 0;
+}
+
+.apk_fix_card_admin .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters,
+.apk_fix_card_dealer .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters {
+    top: -1px;
+}
+
+.policy_fix_card .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters {
+    top: 40px;
+}
+
+.fix_card .ant-card-body {
+    padding: 16px 0px !important;
+}
+
+.apk_fix_card .ant-card-body {
+    padding: 0 0px !important;
+}
+
+.m_d_fix_table .ant-card-body {
+    padding: 16px 16px !important;
+}
+
+.position_absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.position_relative {
+    position: relative;
+}
+
+.vertical_center {
+    display: flex;
+    align-items: center;
+}
+
+.font_10 {
+    font-size: 10px;
+}
+
+.font_14 {
+    font-size: 14px !important;
+}
+
+.font_26_vw {
+    font-size: 1.6vw !important;
+}
+
+
+.font_26 {
+    font-size: 26px !important;
+}
+
+.font_36 {
+    font-size: 36px !important;
+}
+
+.fix_card .ant-table-bordered .ant-table-header>table,
+.fix_card .ant-table-bordered .ant-table-body>table {
+    border: 0 !important;
+}
+
+.fix_header_border {
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+    z-index: 0;
+    top: 56px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.fix_header_border_login_history {
+    border-bottom: 1px solid #e8e8e8;
+    position: sticky;
+    z-index: 0;
+    top: 33px;
+    padding: 0;
+    margin: 0;
+}
+
+.fix_card {
+    position: absolute;
+    top: 142px;
+    bottom: 25px;
+    left: 16px;
+    right: 16px;
+}
+
+.fix_msgList_card {
+    top: 102px;
+}
+
+.fix_card_perm {
+    top: 54px;
+    bottom: 42px;
+    left: 0;
+    right: 2px;
+}
+
+.fix_card_sm {
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 412px;
+    margin-bottom: 50px !important;
+}
+
+.fix_card_bulk_act {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    margin-bottom: 0 !IMPORTANT;
+}
+
+.fix_card_activities {
+    top: 76px;
+}
+
+.fix_card_his_bulk .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters,
+.fix_card_activities .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters {
+    top: 0;
+}
+
+.fix_card_his_bulk {
+    top: 54px;
+    bottom: 2px;
+}
+
+.dealer_fix_card {
+    top: 140px;
+}
+
+.users_fix_card_admin,
+.users_fix_card_dealer,
+.policy_fix_card {
+    top: 102px;
+}
+
+.sm_fix_card {
+    top: 16px;
+}
+
+.m_d_fix_table {
+    top: 143px;
+    overflow: scroll;
+}
+
+.apk_fix_card_dealer,
+.apk_fix_card_admin {
+    top: 140px;
+}
+
+.feat_apk_fix_card_admin {
+    top: 210px;
+}
+
+.feat_apk_fix_card_dealer {
+    top: 200px;
+}
+
+.gx-popover-scroll {
+    position: unset !important;
+}
+
+// .gx-popover-scroll div:first-child {
+//     margin-right : 0px !important;
+//     margin-bottom: 0px !important;
+// }
+
+.Zindex_100+div {
+    z-index: 100;
+    width: 8px !important;
+    right: 0px !important;
+}
+
+.m_auto {
+    margin: 0 auto;
+}
+
+.width_auto .ant-tabs-bar .ant-tabs-tab {
+    width: auto;
+}
+
+.disp_flx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disp_flx_end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-ink-bar {
+    visibility: visible;
+}
+
+.upper_case {
+    text-transform: uppercase;
+}
+
+.ant-modal-body {
+    padding: 16px 16px;
+}
+
+.overflow_table {
+    height: 500px;
+    overflow: overlay;
+}
+
+.width_100 {
+    width: 100%
+}
+
+.agents_fix_card {
+    top: 102px;
+}
+
+.b_p-8 {
+    padding: 0 8px;
+}
+
+.white_now {
+    white-space: nowrap;
+}
+
+.white_normal {
+    white-space: normal;
+}
+
+.display_none {
+    display: none;
+}
+
+.ant-table-thead>tr>th.white_normal {
+    white-space: normal !important;
+}
+
+.bulk_msg .ant-table-tbody>tr>td {
+    white-space: normal !important;
+}
+
+
+
+.ant-empty-normal {
+    margin: 4px 0 0;
+}
+
+.ant-table-expanded-row .ant-table {
+    margin: 0px 16px 16px;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 51, 102, 0.3);
+    -moz-box-shadow: 0px 0px 10px 3px rgba(0, 51, 102, 0.3);
+    box-shadow: 0px 0px 10px 3px rgba(0, 51, 102, 0.3);
+}
+
+.hidden-md {
+    display: none;
+}
+
+.gx-icon-btn {
+    color: #262626;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.gx-no-header-horizontal .gx-linebar {
+    z-index: 1000;
+    background: #fff;
+    -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 992px) {
+    .hidden-md {
+        display: block;
+    }
+
+    .devices_fix_card_admin {
+        top: 293px;
+    }
+
+    .devices_fix_card_dealer {
+        top: 345px;
+    }
+
+    .users_fix_card_admin,
+    .agents_fix_card_admin {
+        top: 217px;
+    }
+
+    .users_fix_card_dealer,
+    .agents_fix_card_dealer {
+        top: 268px;
+    }
+
+    .dealer_fix_card {
+        top: 310px;
+    }
+
+    .m_d_fix_table {
+        top: 260px;
+    }
+
+    .dealer_fix_card {
+        top: 344px;
+    }
+
+    .apk_fix_card_dealer {
+        top: 308px;
+    }
+
+    .apk_fix_card_admin {
+        top: 344px;
+    }
+
+    .policy_fix_card,
+    .users_fix_card {
+        top: 268px;
+    }
+
+    .feat_apk_fix_card_admin {
+        top: 505px;
+    }
+
+    .feat_apk_fix_card_dealer {
+        top: 365px;
+    }
+
+    .m_mt-16 {
+        margin-top: 16px !important;
+    }
+
+    .font_26_vw {
+        font-size: 26px !important;
+    }
+
+    .gx-no-header-horizontal {
+        padding: 0;
+        z-index: 1000;
+    }
+
+    .container-notification-icon {
+        top: 80px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .m_mt-16 {
+        margin-top: 16px !important;
+    }
+
+    .b_p-8 {
+        padding: 0 16px;
+    }
+
+    .fix_card_sm {
+        margin-bottom: 66px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .gx-no-header-horizontal {
+        padding: 0;
+        -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.08);
+        z-index: 1000;
+    }
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.bg_yellow {
+    background: #ffff00;
+}
+
+.bg_brown {
+    background: #ffd966;
+}
+
+.bg_red {
+    background: #ff0000;
+}
+
+.color_white {
+    color: white;
+}
+
+
+.bg_light_yellow {
+    background: #fff2cc;
+}
+
+.black {
+    color: black;
+}
+
+.border-bottom {
+    border-bottom: none !important;
+}
+
+.border-left {
+    border-left: 1px solid #e8e8e8;
+}
+
+.line-height-20 {
+    line-height: 20px;
+}
+
+.credit_popup .weight_400 {
+    font-weight: 400;
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+}
+
+.weight_600 {
+    font-weight: 600;
+}
+
+.addDevcie_popup {
+    border: 1px solid #e8e8e8;
+}
+
+.addDevcie_popup .weight_400 {
+    font-weight: 400;
+    color: #000;
+    font-size: 14px;
+}
+
+.ac_status_table .ant-table-tbody>tr:last-child {
+    background: #ffd966 !important;
+}
+
+.ac_status_table .ant-table-tbody td {
+    width: 48%;
+}
+
+.current_bl_table .ant-table-tbody>tr>td,
+.current_bl_table .ant-table-thead>tr>th {
+    padding: 0 !important;
+}
+
+.current_bl_table .ant-table-title {
+    background: #ddebf7;
+    padding: 2px 2px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.current_bl_table h6 {
+    margin-bottom: 0px;
+}
+
+.current_bl_table .ant-table-tbody>tr:last-child {
+    background: #c6e0b4 !important;
+}
+
+.sale_info_table .ant-table-tbody>tr>td,
+.sale_info_table .ant-table-thead>tr>th {
+    padding: 0 !important;
+}
+
+.ac_status_table .ant-table-tbody>tr>td,
+.ac_status_table .ant-table-thead>tr>th {
+    padding: 0 !important;
+}
+
+.border_bottom {
+    border-bottom: 2px solid #535353;
+    width: fit-content;
+    line-height: 13px;
+}
+
+.border_color_white {
+    border: 1px solid white;
+}
+
+.require_f {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cursor_p {
+    cursor: pointer;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.pt-8 {
+    padding-top: 8px;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pl-6 {
+    padding-left: 6px;
+}
+
+.pl-16 {
+    padding-left: 16px;
+}
+
+.pl-2 {
+    padding-left: 2px;
+}
+
+.pl-32 {
+    padding-left: 32px;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pr-2 {
+    padding-right: 2px;
+}
+
+.pr-6 {
+    padding-right: 6px;
+}
+
+.pr-16 {
+    padding-right: 16px;
+}
+
+.pr-32 {
+    padding-right: 32px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-6 {
+    margin-bottom: 6px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.mt-6 {
+    margin-top: 6px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-13 {
+    margin-top: 13px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mr-2 {
+    margin-right: 2px !important;
+}
+
+.mr-16 {
+    margin-left: 16px;
+}
+
+.mr-32 {
+    margin-left: 32px;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.ml-2 {
+    margin-left: 2px !important;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.ml-6 {
+    margin-left: 6px;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.ml-32 {
+    margin-left: 32px;
+}

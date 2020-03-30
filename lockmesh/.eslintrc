@@ -1,0 +1,14 @@
+{
+  //"parser": "babel-eslint",
+  // "defualt": "off",
+//  "extends": "umi",
+//  "no-script-url": "off",
+//  "eslint no-undef": "off",
+//  "href-no-hash":"off",
+//  "scope":"off",
+//  "no-unused-vars":"off",
+//  "anchor-is-valid": "off",
+//  "no-direct-mutation-state": "off",
+//  "alt-text": "off",
+//  "no-unexpected-multiline": "off"
+}

@@ -1,0 +1,176 @@
+/*---- Apk List Css----*/
+
+.ant-table-filter-dropdown .ant-btn {
+    margin-bottom: 0;
+}
+
+.change_pass .ant-btn,
+.change_email .ant-btn {
+    padding: 0;
+}
+
+.profile_table .ant-table-tbody>tr>td {
+    font-size: 14px;
+    text-align: left;
+    padding: 6px 6px !important;
+    font-weight: 400;
+}
+
+.manage_sec_pro .ant-card-body {
+    height: 253px;
+    position: relative;
+}
+
+.height_auto .ant-card-body {
+    height: auto;
+    overflow: overlay;
+}
+
+.manage_sec_pro img {
+    width: 100px;
+}
+
+.open_btn {
+    width: 40%;
+    position: relative;
+    bottom: 55px;
+    left: 33%;
+}
+
+.open_btn1 {
+    bottom: 57px;
+}
+
+.ant-btn>.anticon+span {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.ant-btn>span+.anticon {
+    margin-left: 0;
+    font-size: 14px;
+}
+
+.edit_a_tag {
+    float: right;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.login_history ::-webkit-scrollbar {
+    width: 10px;
+}
+
+.login_history ::-webkit-scrollbar-thumb {
+    background: #efefef;
+    border-radius: 10px;
+}
+
+.login_history ::-webkit-scrollbar-thumb:hover {
+    background: #efefef;
+}
+
+.dealer_value {
+    word-break: break-all !important;
+}
+
+.login_history .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-sorters {
+    position: sticky;
+    top: -1px;
+}
+
+.login_history .ant-modal-body {
+    padding: 16px 16px;
+    height: 400px;
+    overflow: overlay;
+    padding: 0 17px;
+    margin-top: -1px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.company_address {
+    word-break: break-word !important;
+    white-space: normal;
+}
+
+.profile_table .ant-table-tbody>tr>td.dealer_info {
+    text-transform: uppercase;
+    width: 115px;
+    text-align: right;
+}
+
+/* .text_center_td {
+    display: flex;
+    justify-content: center;
+    line-height: 36px;
+} */
+
+.break_text {
+    white-space: normal;
+    word-break: break-all;
+}
+
+.restrict1 td.dealer_values {
+    background: yellow;
+    color: black;
+    text-align: center !important;
+}
+
+.restrict1 td.dealer_values:hover {
+    background: yellow !important;
+    color: black;
+}
+
+.restrict1_icon {
+    color: #dbdb29;
+    font-size: 26px;
+}
+
+.ant-table-tbody>tr.restrict1:hover:not(.ant-table-expanded-row)>td.dealer_values {
+    background: yellow !important;
+    color: black;
+}
+
+.restrict2 td.dealer_values {
+    background: red;
+    color: white;
+    text-align: center !important;
+}
+
+.restrict2 td.dealer_values:hover {
+    background: red !important;
+    color: white;
+}
+
+.restrict2_icon {
+    color: red;
+    font-size: 26px;
+}
+
+.ant-table-tbody>tr.restrict2:hover:not(.ant-table-expanded-row)>td.dealer_values {
+    background: red;
+}
+
+.active td.dealer_values {
+    background: #c6e0b4 !important;
+    color: black;
+    text-align: center !important;
+}
+
+.active td.dealer_values:hover {
+    background: #c6e0b4 !important;
+    color: black;
+}
+
+.ant-table-tbody>tr.active:hover:not(.ant-table-expanded-row)>td.dealer_values {
+    background: #c6e0b4 !important;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .open_btn1 {
+        bottom: 57px;
+    }
+}

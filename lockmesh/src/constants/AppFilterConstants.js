@@ -1,0 +1,20 @@
+export const Devices_Top_Bar = "Devices Top Bar";
+export const Appfilter_SelectAll = "appfilter.SelectAll"; // Select All
+export const Appfilter_ShowDevices = "appfilter.ShowDevices"; // Show Devices
+export const Appfilter_SearchDevices = "appfilter.SearchDevices"; // Search Devices
+export const Dealer_Top_Bar = "Dealer Top Bar";
+export const Appfilter_ShowDealer = "appfilter.ShowDealer"; // Show Dealer
+export const Appfilter_SearchDealer = "appfilter.SearchDealer"; // Search Dealer
+export const Appfilter_Display = "appfilter.Display"; // Display
+export const Appfilter_SearchUser = "appfilter.SearchUser"; // Search
+export const Appfilter_SearchManageData = "appfilter.SearchManageData"; // Search
+export const Appfilter_Export = "appfilter.export"; // Export
+export const DEVICE_PAGE_HEADING = "devices.pageheading"; // Devices
+export const USERS_PAGE_HEADING = "users.pageheading"; // Users
+export const DEALER_PAGE_HEADING = "dealer.pageheading"; // Dealer
+export const S_Dealer_PAGE_HEADING = "sdealer.pageheading"; // S-dealer
+export const APPS_PAGE_HEADING = "apps.pageheading"; // Apps  
+export const POLICY_PAGE_HEADING = "policy.pageheading"; // Policy
+export const SET_PRICE_PAGE_HEADING = "setprice.pageheading"; // Set Price
+export const AGENTS_PAGE_HEADING = "agents.pageheading"; // Agents  
+

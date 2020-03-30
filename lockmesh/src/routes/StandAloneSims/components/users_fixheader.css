@@ -1,0 +1,73 @@
+/*------------START ENGLISH STYLE---------------*/
+.users_list.lng_eng .counter_w {
+    min-width: 28px !important;
+}
+
+.users_list.lng_eng .counter_w_td {
+    min-width: 21px !important;
+}
+
+.users_list.lng_eng .users_action_w {
+    min-width: 120px !important;
+}
+
+.users_list.lng_eng .users_action_w_td {
+    min-width: 100px !important;
+}
+
+
+
+.users_list.lng_eng .user_id_w {
+    min-width: 139px !important;
+    width: 139px;
+}
+
+.users_list.lng_eng .user_id_w_td {
+    min-width: 133px !important;
+}
+
+.users_list.lng_eng .device_id_w {
+    min-width: 100px !important;
+    width: 100px;
+}
+
+.users_list.lng_eng .device_id_w_td {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.users_list.lng_eng .user_name_w {
+    min-width: 135px !important;
+    width: 135px;
+}
+
+.users_list.lng_eng .user_name_w_td {
+    min-width: 123px !important;
+}
+
+.users_list.lng_eng .email_w {
+    min-width: 180px !important;
+    width: 180px;
+}
+
+.users_list.lng_eng .email_w_td {
+    min-width: 238px !important;
+    width: 238px;
+}
+
+.users_list.lng_eng .token_w {
+    min-width: 80px !important;
+    width: 80px;
+}
+
+.users_list.lng_eng .created_at_w {
+    min-width: 135px !important;
+    width: 135px;
+}
+
+.users_list.lng_eng .created_at_w_td {
+    min-width: 197px !important;
+    width: 197px;
+}
+
+/*------------END ENGLISH STYLE---------------*/

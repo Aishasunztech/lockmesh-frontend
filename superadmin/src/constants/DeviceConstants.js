@@ -1,0 +1,9 @@
+export const OFFLINE_ID = 'OFFLINE ID';
+export const DEVICE_ID = 'DEVICE ID';
+export const DEVICE_REMAINING_DAYS = 'REMAINING DAYS';
+export const DEVICE_STATUS = 'STATUS';
+export const DEVICE_MAC_ADDRESS = 'MAC ADDRESS';
+export const DEVICE_SERIAL_NUMBER = 'SERIAL NUMBER';
+export const DEVICE_START_DATE = 'START DATE';
+export const DEVICE_EXPIRY_DATE = 'EXPIRY DATE';
+export const WHITE_LABEL = 'WHITE_LABEL'

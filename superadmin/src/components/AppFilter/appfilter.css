@@ -1,0 +1,181 @@
+ .multiselect_dropdown {
+     color: #bfbfbf;
+     font-variant: tabular-nums;
+     font-size: 14px;
+ }
+
+ .css-19lyk4y,
+ .css-19lyk4y:active,
+ .css-lc91z5:hover {
+     background-color: #dde0eb !important;
+     color: #545454 !important;
+     font-weight: bold;
+     font-variant: tabular-nums;
+     font-size: 14px;
+ }
+
+
+ .ant-card-body {
+     padding: 16px 16px !important;
+ }
+
+ .ant-btn,
+ .ant-btn-primary {
+     margin-bottom: 0;
+ }
+
+ .ant-card {
+     margin-bottom: 16px;
+ }
+
+ .gx-main-content-wrapper {
+     padding: 16px 16px 0;
+ }
+
+ .filter_top .ant-btn {
+     margin: 0 8px 0 0;
+ }
+
+ .down_btn {
+     width: 100%;
+     padding: 0px 8px;
+     background-color: orange;
+     color: #fff !important;
+     margin-bottom: 0;
+ }
+
+ .down_btn:active:hover {
+     color: #fff;
+     background-color: orange;
+ }
+
+ .down_btn:focus {
+     color: #fff;
+     background-color: orange;
+ }
+
+ .down_btn:hover {
+     color: #fff;
+     background-color: orange;
+ }
+
+ .filter_top .css-t0fuvl,
+ .filter_top .css-hppqp6 {
+     color: #bfbfbf;
+     background-color: #fff;
+     background-image: none;
+     border: 1px solid #d9d9d9;
+     border-radius: 6px;
+     padding: 5px 10px;
+     box-shadow: none;
+ }
+
+ .filter_top .css-t0fuvl:hover {
+     border-radius: 6px;
+     padding: 5px 10px;
+     box-shadow: none;
+     background-image: none;
+     border: 1px solid #d9d9d9;
+ }
+
+ .filter_top .ant-input-search {
+     margin-bottom: 0;
+ }
+
+ .picky__input {
+     position: relative;
+ }
+
+ .down_icon {
+     position: absolute;
+     right: 20px;
+     z-index: 10;
+     top: 11px;
+     color: #bfbfbf;
+     font-size: 12px;
+ }
+
+ .filter_top .picky__input {
+     color: #bfbfbf;
+     border-color: #d9d9d9;
+     border-radius: 6px;
+     padding: 5px 11px;
+     height: 36px;
+     overflow: hidden;
+     white-space: nowrap;
+ }
+
+ .filter_top .ant-input-search-icon {
+     color: #bfbfbf;
+ }
+
+ .picky__input::after {
+     position: absolute;
+     width: 0;
+     height: 0;
+     margin-left: 2px;
+     vertical-align: middle;
+     border-top: 0;
+     border-right: 0;
+     border-left: 0;
+     content: '';
+     right: 16px;
+     top: 16px;
+ }
+
+ .display_ .ant-checkbox-wrapper {
+     color: #545454;
+     font-size: 13px;
+     font-weight: 400;
+ }
+
+ .display_ .slct_all {
+     font-size: 14px;
+     color: #545454;
+ }
+
+ .picky__dropdown {
+     border-top: 1px solid #bfbfbf;
+     top: 36px;
+     border-radius: 6px;
+ }
+
+ .picky__dropdown .option,
+ .picky__dropdown li {
+     border-bottom: 1px solid rgba(255, 254, 254, 0);
+ }
+
+ .picky__dropdown .option:focus,
+ .picky__dropdown li:focus {
+     outline: none !important;
+ }
+
+ .picky__dropdown .option:hover,
+ .picky__dropdown li:hover {
+     background-color: #e6faff;
+ }
+
+ .picky__input:focus,
+ .picky__input:active {
+     border-color: #28aaeb;
+     box-shadow: 0 0 0 2px rgba(3, 143, 222, 0.2);
+     border-right-width: 1px !important;
+ }
+
+ @media (max-width: 992px) {
+     .filter_top .gutter-box {
+         margin: 8px 0;
+     }
+
+     .ant-card-body {
+         padding: 16px 16px !important;
+     }
+
+     .manage_sec_pro .ant-card-body {
+         height: auto;
+     }
+
+     .down_icon {
+         top: 20px;
+     }
+ }

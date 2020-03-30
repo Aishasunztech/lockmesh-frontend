@@ -1,0 +1,4 @@
+.ant-menu-submenu-title{
+    visibility: hidden;
+    height: 0px !important;
+}

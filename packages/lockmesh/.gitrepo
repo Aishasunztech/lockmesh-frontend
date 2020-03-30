@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@gitlab.com:secure-mdm/lockmesh.git
 	branch = sunztech
-	commit = a87b87aa67672f184011fb69b56a09e983631ad4
+	commit = 662c4015405f2a2353be80c1ec85d1dcfa533811
 	parent = 1a3d441b0cf9e69bf686e5738fe793d868a21184
 	method = merge
 	cmdver = 0.4.0

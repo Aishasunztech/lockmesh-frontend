@@ -1,6 +1,0 @@
-[0613/161659.577:ERROR:process_info.cc(359)] UncheckedAllocate
-[0613/162154.882:ERROR:process_info.cc(359)] UncheckedAllocate
-[0613/162613.977:ERROR:crash_report_database_win.cc(428)] unexpected header
-[0615/150547.511:ERROR:crash_report_database_win.cc(428)] unexpected header
-[0617/110412.964:ERROR:crash_report_database_win.cc(428)] unexpected header
-[0617/151819.193:ERROR:crash_report_database_win.cc(428)] unexpected header
